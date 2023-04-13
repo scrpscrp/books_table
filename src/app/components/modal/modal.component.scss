@@ -1,0 +1,60 @@
+.backdrop {
+    height: 100vh;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.342);
+    position: absolute;
+    z-index: 100;
+    position: fixed;
+}
+
+.modal {
+    width: 50%;
+    background-color: #a6d4e4;
+    right: 25%;
+    top: 15%;
+    position: absolute;
+    margin: 0 auto;
+    z-index: 200;
+    padding: 15px;
+
+    &__input-title {
+        color: #154252;
+        ;
+    }
+
+}
+
+.add-book__input {
+    width: 100%;
+}
+
+.button__close {
+    margin-top: 10px;
+}
+
+.buttoms {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.modal-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    color: #154252;
+
+    .pi {
+        cursor: pointer;
+    }
+
+    .modal-title {
+        margin: 0;
+    }
+
+}
+
+:host ::ng-deep p-button button:disabled {
+    color: #154252;
+    background-color: rgb(80, 80, 80) !important;
+}

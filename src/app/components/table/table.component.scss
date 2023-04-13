@@ -1,0 +1,64 @@
+.header__title {
+    cursor: pointer;
+}
+
+.edit-book {
+    cursor: pointer;
+
+    &:hover {
+        color: #9FA8DA;
+    }
+}
+
+.wrapper {
+    display: flex;
+    margin: 0 auto;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    .search-container,
+    .datepicker {
+        width: 40%;
+    }
+}
+
+.add-book {
+    background-color: #263238;
+    border-radius: 20px;
+    padding: 5px;
+    cursor: pointer;
+
+    &:hover {
+        background-color: #2d3c43;
+    }
+}
+
+tr.selected {
+    background-color: #4d5169bd;
+    cursor: pointer;
+}
+
+.buttons__block {
+    display: flex;
+    padding: 15px 0 0 15px;
+
+    .buttons__block-regular {
+        height: 20px;
+        background-color: #9FA8DA;
+        border-radius: 5px;
+        color: #2d3c43;
+        cursor: pointer;
+
+        &:hover {
+            background-color: #72789c;
+        }
+    }
+}
+
+.button__datepicker {
+    margin-right: 10px;
+}
